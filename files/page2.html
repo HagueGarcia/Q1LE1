@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta="author" content="Hague Garcia">
+    <meta="keywords" content="Land of Ooo, Adventure time Kingdoms, 4 pages, Lab activity, HTML, CSS, Javascript">
+    <meta name="revised" content="18-09-2020">
+       <title> Candy Kingdom</title>
+       
+       <style>
+       h1 {
+           background-color: transparent;
+           width:100%;
+           height: 50px;
+           text-align: center;
+           padding: 10px;
+           color: fuchsia;
+           font-family: arial;
+           font-size: 40px;
+                }
+           h2{
+               font-size: 70px;
+           }
+        body   {
+            background-image: url(../images/candykingdom.jpg);
+            height:100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: arial;
+            text-align: center;
+                }
+           .img{
+               height: 30%;
+               transition: all .2s ease-in-out;
+           }
+           .img:hover {
+              transform: scale(1.4,0.5);
+           }
+           .border{
+            margin-top: 20px;
+            margin-bottom: 40px;
+            background-color: fuchsia;
+            border: 2px solid deeppink;
+            position:absolute;
+            left:70px;
+            right: 70px;
+            padding-right: 20px;
+           }
+            #back {
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 500px;
+                height: 40px;
+                background-color: white;
+                font-family: arial;
+                font-size:36px;
+                padding: 10px; 
+                transition: all .2s ease-in-out;
+                text-align: center;
+           }
+            a:link {
+                background-color: transparent;
+                text-decoration: none;
+                text-align: center;
+           }
+            #back:hover {
+                transform: scale(1.2,1.2);
+            }
+            #back :hover {
+                transform: scale(1.2,1.2);
+            }
+       </style>
+</head>
+<body>
+<div>
+	<h1>You've arrived at the CANDY KINGDOM!</h1>
+    <img src="../images/candyicon.png" alt="candy kingdom" title="Candy Kingdom" style="height: 150px ">
+</div>
+    <div class="border">
+        <h3>
+            Things to do in the Ice Kingdom:
+        </h3>
+        <ul>
+        <li> Greet the citizens in the kingdom, be kind! Some citizens are mean because their sugar level became too high.  
+            </li>
+        <li> 
+            You can help Princess Bubblegum with her science experiments! Raise the undead, battle the gumball guardians with arithmetic equations, the posibilities are limitless. But be careful and take note if she's acting normal. One episode she turned into a litch and that was really scary. 
+            </li>
+        <li>
+            We just love squishing things that are physically impossible to squish. Here is pepermint butler, we've sucessfully bribed cinnamon bun to not tell anyone we got him hostage. Hover over him to squish!
+            </li>  
+        </ul>
+        <div class="img">
+            <img src="../images/pmb.png" alt="peppermint butler" title="Hover to squish" style="height:300px;">
+
+        </div>
+            <div id=back>
+            <a href="../home.html" style="color: black"><strong>BACK TO TREEHOUSE</strong></a>
+        </div>
+        </div>
+    
+
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta="author" content="Hague Garcia">
+    <meta="keywords" content="Land of Ooo, Adventure time Kingdoms, 4 pages, Lab activity, HTML, CSS, Javascript">
+    <meta name="revised" content="18-09-2020">
+       <title> Finn and Jake's Next Adventure</title>
+       
+       <style>
+       h1 {
+           background-color: transparent;
+           width:100%;
+           height: 50px;
+           text-align: center;
+           padding: 10px;
+           color: black;
+           font-family: arial;
+           font-size: 100px;
+                }
+           h2{
+               font-size: 70px;
+           }
+        body   {
+            background-image: url(images/hometree%20house.jpg);
+            height:100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: arial;
+            text-align: center;
+                }
+           .img{
+               height: 800px;
+               width: 800px;
+               
+               transition: all .2s ease-in-out;
+           }
+           .img:hover {
+              transform: scale(1.3,1.3);
+           }
+           .column {
+               float: left;
+               width: 33%;
+               padding: 5px;
+           }
+           .row:after {
+            content: "";
+            clear:both;
+            display:table;
+           }
+       
+       </style>
+</head>
+<body>
+<div>
+	<h1>It's</h1>
+    <img src="images/logo.png" alt="adventure time" title="adventure time" style="height: 500px">
+</div>
+    <div>
+    <hr>
+        <h2> Help Finn and Jake choose their next adventure by clicking any kingdom! Visit their friends and encounter creatures from the Land of Ooo.
+        <br>
+        Don't forget to lock your treehouse, BMO is all by himself.
+        <br><br>
+            Go to:
+        </h2>
+    
+    </div>
+    <div class="row">
+        
+        <div class="img column">
+            <a href="files/page1.html"><img src="images/icek%20logo.png" alt="ice kingdom" title="Go to Ice Kingdom" style="height: 130%" ></a>
+            <p style="font-size: 60px"> ICE KINGDOM</p>
+        </div>
+            
+        <div class="img column">
+            <a href="files/page2.html"><img src="images/candyicon.png" alt="candy kingdom" title="Go to Candy Kingdom"
+            style="height: 130%"></a>
+            <p style="font-size: 60px"> CANDY KINGDOM</p>
+        </div>
+            
+        <div class="img column">
+        <a href="files/page3.html"><img src="images/lumpy%20icon.png" alt="lumpy space" title="Go to Lumpy Space" 
+        style="height: 130%"></a>
+            <p style="font-size: 60px"> LUMPY SPACE</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
